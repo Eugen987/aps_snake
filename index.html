@@ -13,7 +13,7 @@
       <div>
           <div class="row" ng-repeat="column in board">
               <div class="column"
-                  ng-style="{'background-color': setStyling($parent.$index, $index)}"
+                  ng-style="{'background-image': setStyling($parent.$index, $index)}"
                   ng-repeat="row in column track by $index"
               ></div>
           </div>
